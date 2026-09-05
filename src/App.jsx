@@ -24,7 +24,7 @@ function App() {
           paciente: "Ana Gomez",
           hora: "10:00",
           urgente: false,
-          observaciones: "Sin observaciones",
+          observaciones: "",
           sesiones: 0,
         }}
       />

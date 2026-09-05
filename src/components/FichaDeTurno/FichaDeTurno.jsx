@@ -1,3 +1,4 @@
+import "./FichaDeTurno.css";
 function FichaDeTurno({ cargando, error, turno }) {
 
   if (cargando) {
@@ -21,7 +22,7 @@ function FichaDeTurno({ cargando, error, turno }) {
       {turno.urgente && <span>Urgente</span>}
 
       <p>
-        Observaciones: {turno.observaciones ?? "Sin observaciones"}
+        Observaciones: {(turno.observaciones ?? "") || "Sin observaciones"}
       </p>
 
       <p>Sesiones: {turno.sesiones}</p>
