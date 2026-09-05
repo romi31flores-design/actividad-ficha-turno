@@ -11,7 +11,7 @@ function App() {
 
       <FichaDeTurno
         turno={{
-          paciente: "Flores Romina",
+          paciente: "Ceferino Ruiz",
           hora: "09:30",
           urgente: true,
           observaciones: "Traer estudios previos",
@@ -21,10 +21,10 @@ function App() {
 
       <FichaDeTurno
         turno={{
-          paciente: "Valentina Moreno",
+          paciente: "Ana Gomez",
           hora: "10:00",
           urgente: false,
-          observaciones: "Sin observaciones", 
+          observaciones: "Sin observaciones",
           sesiones: 0,
         }}
       />
